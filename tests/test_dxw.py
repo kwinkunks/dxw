@@ -3,6 +3,8 @@ import pytest
 from dxw import dxw
 import numpy as np
 
+# NOTE: Pytest is currently configured to run doctest too. See setup.cfg.
+
 
 def test_empty():    
     with pytest.raises(ValueError):
